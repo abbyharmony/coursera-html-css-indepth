@@ -1,4 +1,4 @@
-# coursera-html-css-indepth\
+# coursera-html-css-indepth
 This is the portfoloio project for my final assessment of the Coursera HTML and CSS In Depth course.\
 I enjoyed this build and troubleshooting spacing issues a learning experience. \
 I was required to create interactivity through the use of effects and pseudoclasses, and enjoyed figuring \
