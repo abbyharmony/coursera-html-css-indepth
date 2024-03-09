@@ -1,0 +1,211 @@
+body {
+    background-color: #f99b60;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 3rem 5%;
+}
+
+header {
+    background-color:#fbdd74;
+    max-height: 10rem;
+    margin: -1.5rem;
+    border-style: solid;
+    border-color: black;
+    border-bottom: none;
+    box-shadow: 1rem -0.5rem #475d5b;
+}
+
+h1 {
+    font-family: 'Godiva','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 0;
+    
+}
+
+h2 {
+    font-family: 'Godiva','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+header {
+    display: flex;
+    position: relative;
+    border-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: auto;
+    padding: 2rem;
+    position: relative;
+    opacity: 1;
+    transform: rotate(180deg);
+    transition: 4sec;
+}
+
+header > img:hover {
+    background-image: url(images/logo1.png);
+    background-size: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+nav ul {
+    list-style: none;
+    font-size: larger;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: black;
+    border-top: 0;
+    box-shadow: 1rem 0 #475d5b;
+    padding: 1.5rem;
+    background-color: #fbdd74;
+    margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Godiva';
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+main {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+section {
+    padding: 0;
+}
+
+article {
+    text-align: center;
+    justify-content: center;
+}
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+}
+
+.promo img {
+    height: 30rem;
+    width: 90rem;
+    border-style: double;
+}
+
+.container {
+    border: black;
+    border-style: solid;
+    border-radius: 2rem;
+    background-color: #fbdd74;
+    width: 50rem;
+    margin-top: 2rem;
+    align-items: center;
+    box-shadow: 1rem 1rem #475d5b;
+}
+
+.info {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.gardens, .nursery, .about {
+    border: solid black;
+    border-radius: 2rem;
+    max-width: 18rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    color: white;
+}
+
+.gardens {
+    background-image: url(images/landscape.jpg);
+    background-size: 22.5rem;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+
+.gardens:hover {
+    filter: blur(0);
+}
+
+.nursery {
+    background-image: url(images/cactus.jpg);
+    background-size: 22.5rem;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+
+.nursery:hover {
+    filter: blur(0);
+}
+
+.about {
+    background-image: url(images/about.jpg);
+    background-size: 22.5rem;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+
+.about:hover {
+    filter: blur(0);
+}
+
+footer {
+    display: flex;
+    flex-grow: 1rem;
+    align-items: center;
+    border-top: solid;
+    margin-top: 0.5rem;
+    margin-bottom: -1rem;
+    max-height: 5rem;
+    padding: 0.5rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+div img {
+    height: 6rem;
+    width: auto;
+    margin-bottom: -1.5rem;
+}
+
+.copyright {
+    font-size: smaller;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5rem;
+}
+
+.signup {
+    margin-left: 10rem
+}
